@@ -26,3 +26,10 @@ Defaults mint 100 tokens with two decimal places and send 10 to the recipient. T
 - [Create a token mint](https://solana.com/docs/tokens/basics/create-mint)
 - [Mint tokens](https://solana.com/docs/tokens/basics/mint-tokens)
 - [Transfer tokens](https://solana.com/docs/tokens/basics/transfer-tokens)
+
+## Devnet assignment proof
+
+The screenshots show a Detoxin (`DETOX`) token with supply 83 and 9 decimals on Solana Devnet. Phantom confirmed that 10 DETOX were sent to Account 2 (`BCVbmtvfUDAox7EzxnzqkJ8eaCCbErJLRHkuoVxhvrgU`). The mint address is shortened in the screenshot (`476Fn...yKskK`).
+
+[View the successful, finalized transaction](https://explorer.solana.com/tx/4ArFSk4Y4iPDEA3LXTbnFZdEkFPkeN6dQiH1fsDuyoi1CNSCWnurPdX5PeAVRj9mt8AAMcJ7wH3Ss5MLUfQ0hVEG?cluster=devnet)
+
