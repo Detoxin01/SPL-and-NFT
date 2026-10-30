@@ -1,0 +1,15 @@
+{
+  "name": "week1-mpl-core-nft",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "vite --host 127.0.0.1" },
+  "dependencies": {
+    "@metaplex-foundation/mpl-core": "^1.0.0",
+    "@metaplex-foundation/umi": "^0.9.0",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.0",
+    "@metaplex-foundation/umi-signer-wallet-adapters": "^0.9.1",
+    "@solana/wallet-adapter-phantom": "^0.9.29"
+  },
+  "devDependencies": { "vite": "^6.0.0" }
+}
