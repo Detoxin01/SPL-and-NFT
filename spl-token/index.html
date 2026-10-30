@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 1 SPL Token Lab</title>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Q4 2026 Builders Cohort · Week 1</p>
+      <h1>SPL Token Lab</h1>
+      <p class="intro">Create a devnet token, mint a supply, and send some to another wallet. Phantom approves the transaction.</p>
+      <div class="network">Solana devnet · Test tokens have no financial value</div>
+      <button id="connect">Connect Phantom</button>
+      <p id="wallet" class="muted">Wallet not connected</p>
+      <form id="mint-form">
+        <label>Recipient wallet address<input id="recipient" required placeholder="Paste the receiving wallet's public address" autocomplete="off" /></label>
+        <div class="row">
+          <label>Display name (for your notes)<input id="token-name" value="Builders Demo Token" maxlength="32" required /></label>
+          <label>Display symbol (for your notes)<input id="token-symbol" value="BDT" maxlength="10" required /></label>
+        </div>
+        <div class="row">
+          <label>Mint amount<input id="mint-amount" type="number" value="100" min="1" step="any" required /></label>
+          <label>Transfer amount<input id="transfer-amount" type="number" value="10" min="0.01" step="any" required /></label>
+        </div>
+        <button id="run" type="submit" disabled>Mint and transfer</button>
+      </form>
+      <p id="status" class="status" aria-live="polite"></p>
+      <section id="result" hidden></section>
+      <p class="footnote">The app only requests transaction signatures after you press “Mint and transfer.” Confirm the network and addresses in Phantom before approving.</p>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
