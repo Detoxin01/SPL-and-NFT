@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f4f7fb; color: #172337; font: 16px/1.5 Inter, Segoe UI, sans-serif; }
+main { width: min(760px, calc(100% - 32px)); margin: 44px auto; padding: 36px; background: white; border: 1px solid #e0e7f0; border-radius: 20px; box-shadow: 0 14px 40px #1b355410; }
+.eyebrow { margin: 0; color: #635bff; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
+h1 { margin: 6px 0; font-size: clamp(30px, 6vw, 42px); letter-spacing: -.04em; }
+.intro { color: #5a677a; }
+.network { margin: 22px 0; padding: 11px 14px; background: #edf7f1; color: #24714d; border-radius: 10px; font-weight: 600; }
+section { margin: 22px 0; padding: 22px; background: #f7f8fc; border-radius: 14px; }
+h2 { margin: 0 0 10px; font-size: 20px; }
+label { display: block; margin: 16px 0; font-size: 14px; font-weight: 650; }
+input { display: block; width: 100%; margin-top: 7px; padding: 12px; border: 1px solid #cbd5e1; border-radius: 9px; font: inherit; }
+button { width: 100%; padding: 13px 16px; border: 0; border-radius: 10px; background: #635bff; color: white; font: inherit; font-weight: 700; cursor: pointer; }
+button:disabled { opacity: .5; cursor: not-allowed; }
+#connect { background: #28213f; }
+.muted, .footnote { color: #68758a; font-size: 13px; overflow-wrap: anywhere; }
+.status { min-height: 24px; font-weight: 650; }
+#result { margin-top: 20px; background: #edf7f1; }
+dl { display: grid; grid-template-columns: minmax(130px, 180px) 1fr; gap: 8px 12px; overflow-wrap: anywhere; font-size: 13px; }
+dt { color: #637087; } dd { margin: 0; }
+@media (max-width: 560px) { main { padding: 24px 18px; margin: 16px auto; } section { padding: 18px; } }
