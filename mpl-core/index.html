@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 1 Metaplex Core Lab</title>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Q4 2026 Builders Cohort · Week 1</p>
+      <h1>Metaplex Core NFT Lab</h1>
+      <p class="intro">Create a Core NFT on devnet, then change its name and metadata URI as its update authority.</p>
+      <div class="network">Solana devnet · Test assets have no financial value</div>
+      <button id="connect">Connect Phantom</button>
+      <p id="wallet" class="muted">Wallet not connected</p>
+      <section>
+        <h2>Create the NFT</h2>
+        <label>On-chain name<input id="name" value="Builders Cohort NFT" maxlength="32" /></label>
+        <label>Public HTTPS metadata JSON URL<input id="uri" required value="https://raw.githubusercontent.com/Detoxin01/SPL-and-NFT/main/mpl-core/metadata.json" autocomplete="url" /></label>
+        <button id="create" disabled>Create Core asset</button>
+      </section>
+      <section>
+        <h2>Update the NFT</h2>
+        <label>Asset address<input id="asset" placeholder="Paste the address returned after creation" autocomplete="off" /></label>
+        <label>Updated on-chain name<input id="updated-name" value="Builders Cohort NFT — Updated" maxlength="32" /></label>
+        <label>Updated public HTTPS metadata JSON URL<input id="updated-uri" required value="https://raw.githubusercontent.com/Detoxin01/SPL-and-NFT/main/mpl-core/metadata-updated.json" autocomplete="url" /></label>
+        <button id="update" disabled>Update name and metadata</button>
+      </section>
+      <p id="status" class="status" aria-live="polite"></p>
+      <section id="result" hidden></section>
+      <p class="footnote">Phantom will show each transaction for your review. Check that it is connected to devnet before approving.</p>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
