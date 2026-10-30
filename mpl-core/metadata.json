@@ -1,0 +1,10 @@
+{
+  "name": "Builders Cohort NFT",
+  "description": "A learning asset created for the Q4 2026 Builders Cohort Week 1 assignment.",
+  "image": "https://placehold.co/512x512/png?text=Builders+Cohort",
+  "attributes": [
+    { "trait_type": "Course", "value": "Solana Builders Cohort" },
+    { "trait_type": "Week", "value": "1" },
+    { "trait_type": "Standard", "value": "Metaplex Core" }
+  ]
+}
