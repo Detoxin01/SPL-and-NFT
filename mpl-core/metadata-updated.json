@@ -1,7 +1,7 @@
 {
   "name": "Builders Cohort NFT — Updated",
   "description": "A learning asset created for the Q4 2026 Builders Cohort Week 1 assignment. This metadata was updated by the asset update authority.",
-  "image": "https://placehold.co/512x512/png?text=Builders+Cohort",
+  "image": "https://github.com/Detoxin01/SPL-and-NFT/blob/main/mpl-core/My%20Canvas.png",
   "attributes": [
     { "trait_type": "Course", "value": "Solana Builders Cohort" },
     { "trait_type": "Week", "value": "1" },
