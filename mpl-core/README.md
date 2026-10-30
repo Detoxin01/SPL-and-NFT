@@ -6,10 +6,10 @@ This project creates a Metaplex Core asset on **Solana Devnet**, then updates it
 
 - Asset: **Builders Cohort NFT — Updated**
 - Network: **Solana Devnet**
-- Asset address: `28qEXU24W4FCRCF5ikyYnsVChEUJavEzbsK5SQHpGMfJ`
+- Asset address: `28qEXU24W4FCRCf5ikyYnsVChEUJavEzbsK5SQHpGMfJ`
 - Owner and update authority: `5pEwKzTio9HhSMPuBWr9znT21LkvHiLQq7j4f7rXr5f4`
-- [View the NFT image and details in Metaplex Core Explorer](https://core.metaplex.com/explorer/28qEXU24W4FCRCF5ikyYnsVChEUJavEzbsK5SQHpGMfJ?env=devnet)
-- [View the Core asset account in Solana Explorer](https://explorer.solana.com/address/28qEXU24W4FCRCF5ikyYnsVChEUJavEzbsK5SQHpGMfJ?cluster=devnet)
+- [View the NFT image and details in Metaplex Core Explorer](https://core.metaplex.com/explorer/28qEXU24W4FCRCf5ikyYnsVChEUJavEzbsK5SQHpGMfJ?env=devnet)
+- [View the Core asset account in Solana Explorer](https://explorer.solana.com/address/28qEXU24W4FCRCf5ikyYnsVChEUJavEzbsK5SQHpGMfJ?cluster=devnet)
 
 ## Metadata files
 
