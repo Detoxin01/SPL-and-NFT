@@ -21,5 +21,15 @@ Raw URLs used by the Core app:
 
 ## Transaction proof
 
-The transaction links belong here after the devnet exercises are completed. They are intentionally not invented or prefilled.
+### SPL token
+
+- Network: Solana Devnet
+- Token: Detoxin (`DETOX`), supply 83, 9 decimals
+- Mint address shown in the screenshot: `476Fn...yKskK` (shortened by the explorer)
+- Phantom confirmed 10 DETOX sent to Account 2 (`BCVbmtvfUDAox7EzxnzqkJ8eaCCbErJLRHkuoVxhvrgU`)
+- [View the successful, finalized transaction](https://explorer.solana.com/tx/4ArFSk4Y4iPDEA3LXTbnFZdEkFPkeN6dQiH1fsDuyoi1CNSCWnurPdX5PeAVRj9mt8AAMcJ7wH3Ss5MLUfQ0hVEG?cluster=devnet)
+
+### Metaplex Core NFT
+
+Add the asset address and create/update transaction links after completing the Core lab.
 
