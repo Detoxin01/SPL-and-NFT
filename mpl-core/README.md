@@ -1,13 +1,22 @@
 # Week 1 — NFT with Metaplex Core
 
-This project creates a Metaplex Core asset on **Solana devnet**, then changes its on-chain name and metadata URI using the connected Phantom wallet as update authority. Devnet SOL and assets have no financial value.
+This project creates a Metaplex Core asset on **Solana Devnet**, then updates its name and metadata URI using the connected Phantom wallet as update authority.
 
-## Prepare metadata
+## Assignment result
 
-`metadata.json` and `metadata-updated.json` are included in this repository. Use their raw GitHub URLs in the create and update forms. The JSON describes the asset; the Core account stores its name and URI on-chain.
+- Asset: **Builders Cohort NFT — Updated**
+- Network: **Solana Devnet**
+- Asset address: `28qEXU24W4FCRCF5ikyYnsVChEUJavEzbsK5SQHpGMfJ`
+- Owner and update authority: `5pEwKzTio9HhSMPuBWr9znT21LkvHiLQq7j4f7rXr5f4`
+- [View the NFT image and details in Metaplex Core Explorer](https://core.metaplex.com/explorer/28qEXU24W4FCRCF5ikyYnsVChEUJavEzbsK5SQHpGMfJ?env=devnet)
+- [View the Core asset account in Solana Explorer](https://explorer.solana.com/address/28qEXU24W4FCRCF5ikyYnsVChEUJavEzbsK5SQHpGMfJ?cluster=devnet)
 
-- Initial metadata: `https://raw.githubusercontent.com/Detoxin01/SPL-and-NFT/main/mpl-core/metadata.json`
-- Updated metadata: `https://raw.githubusercontent.com/Detoxin01/SPL-and-NFT/main/mpl-core/metadata-updated.json`
+## Metadata files
+
+- Initial metadata: [metadata.json](metadata.json)
+- Updated metadata: [metadata-updated.json](metadata-updated.json)
+- Current updated metadata URL: https://raw.githubusercontent.com/Detoxin01/SPL-and-NFT/main/mpl-core/metadata-v2.json
+- NFT image: https://raw.githubusercontent.com/Detoxin01/SPL-and-NFT/main/mpl-core/My%20Canvas.png
 
 ## Run
 
@@ -16,15 +25,14 @@ This project creates a Metaplex Core asset on **Solana devnet**, then changes it
 3. Open the local address printed by Vite in the same browser profile that has Phantom.
 4. Switch Phantom to **Devnet** and connect it.
 5. Enter the public HTTPS URL of the metadata JSON and create the asset. Review the transaction in Phantom.
-6. Use the returned asset address in the update form with the updated name and the second public metadata URL. Review that transaction in Phantom.
-7. Save the transaction and explorer details for the assignment README.
+6. Use the returned asset address in the update form with the updated name and metadata URL. Review the update in Phantom.
 
 The app only asks Phantom to sign after you press a transaction button. It never requests a seed phrase, private key, or exported keypair.
 
 ## What happened
 
 - The Core asset was created with the connected wallet as owner and update authority.
-- The update changes the name and metadata URI; only the update authority (or an authorized delegate) can make it.
+- The update changes the asset name and metadata URI; only the update authority (or an authorized delegate) can make it.
 - Updating metadata is different from transferring asset ownership.
 
 ## References
