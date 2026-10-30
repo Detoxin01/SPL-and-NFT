@@ -21,10 +21,10 @@ Both apps use Phantom for wallet signing and target **Devnet**. Review every tra
 
 - Network: Solana Devnet
 - Name: Builders Cohort NFT — Updated
-- Asset address: `28qEXU24W4FCRCF5ikyYnsVChEUJavEzbsK5SQHpGMfJ`
+- Asset address: `28qEXU24W4FCRCf5ikyYnsVChEUJavEzbsK5SQHpGMfJ`
 - Owner and update authority: `5pEwKzTio9HhSMPuBWr9znT21LkvHiLQq7j4f7rXr5f4`
-- [View the asset and image in Metaplex Core Explorer](https://core.metaplex.com/explorer/28qEXU24W4FCRCF5ikyYnsVChEUJavEzbsK5SQHpGMfJ?env=devnet)
-- [View the asset account in Solana Explorer](https://explorer.solana.com/address/28qEXU24W4FCRCF5ikyYnsVChEUJavEzbsK5SQHpGMfJ?cluster=devnet)
+- [View the asset and image in Metaplex Core Explorer](https://core.metaplex.com/explorer/28qEXU24W4FCRCf5ikyYnsVChEUJavEzbsK5SQHpGMfJ?env=devnet)
+- [View the asset account in Solana Explorer](https://explorer.solana.com/address/28qEXU24W4FCRCf5ikyYnsVChEUJavEzbsK5SQHpGMfJ?cluster=devnet)
 - [Updated metadata JSON](https://raw.githubusercontent.com/Detoxin01/SPL-and-NFT/main/mpl-core/metadata-v2.json)
 - [NFT image](https://raw.githubusercontent.com/Detoxin01/SPL-and-NFT/main/mpl-core/My%20Canvas.png)
 
